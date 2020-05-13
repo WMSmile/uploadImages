@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+ 
+<view style="margin:30rpx;">
+        <ChooseImage id="popnum" bind:chooseImg="chooseImgnum" bind:deleteImg="deleteImgnum" bind:previewImg="previewImg" imgs="{{imgs}}" count="{{countnum}}">
+        </ChooseImage>
+</view>
+<view>
+    <button class='button' catchtap='uploadImgs'> 上传图片 </button>
+</view>
+</view>

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "上传图片",
+    "usingComponents": {
+      "ChooseImage": "../../common/chooseImage/index"
+    }
+}
